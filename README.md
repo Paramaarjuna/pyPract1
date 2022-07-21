@@ -1,3 +1,5 @@
+<br id="top"/>
+
 # pyPract1
 
 ## Learning python 3 by following a book named "Learn python 3 the Hard way" written by **Zed A. Shaw** and published in 2017.
@@ -11,13 +13,17 @@
 ---
 ---
 
+<br id="TableOfContents"/>
+
 # Table of contents
 |Sl. No.|Content|
 |---|---|
-|1|Exercise 1. A Good First Program|
+|1|<a href="#ex1">Exercise 1. A Good First Program</a>|
+|2|<a href="#ex2">Exercise 2. Comments and Pound characters</a>|
 
 ---
-
+<a href="#TableOfContents">TableOfContents</a>
+<br id="ex1"/>
 <div style="background-color:rgb(124, 23, 222)">
 
 # Exercise 1. A Good First Program
@@ -114,8 +120,37 @@ Another line
 ```
 
 ## Inference: ex1_SD_3.py
-- When an Octothorpe # is placed at the beginning of the 4th line of the script, the statement in that line did not appear in the output.
+- When an Octothorpe(#) is placed at the beginning of the 4th line of the script, the statement in that line did not appear in the output.
 ---
 
 
 </div>
+<a href="#TableOfContents">TableOfContents</a>
+<br id="ex2"/>
+<div style="background-color:rgb(100, 30, 100)">
+
+# Exercise 2. Comments and Pound Characters
+
+## Code: ex2.py
+```python
+# A comment, this is so you can read your program later.
+# Anything after the # is ignored by python.
+
+print("I could have code like this.") # and the comment after is ignored
+
+# You can also use a comment to "disable" or comment out code:
+# print("This won't run.")
+
+print("This will run.")
+```
+
+## Output: ex2.py
+```
+$ python ex2.py
+I could have code like this.
+This will run.
+```
+</div>
+<a href="#TableOfContents">TableOfContents</a>
+<br/>
+<a href="#top">Top</a>
